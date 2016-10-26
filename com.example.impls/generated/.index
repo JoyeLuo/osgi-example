@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1477465852422" name="com.example.impls" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1477469761803" name="com.example.impls" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.example.impls.command"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="0.0.0.201610260710"/>
+      <attribute name="version" type="Version" value="0.0.0.201610260816"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="92141ac84e1c11228db1c8b971846601693dd84abd54b73e33b78e745a61293f"/>
+      <attribute name="osgi.content" value="ab426b04f22c63332acda6c7c0ae91223131a6e27b232b9c56593ca1f0e22e60"/>
       <attribute name="url" value="generated/com.example.impls.command.jar"/>
-      <attribute name="size" type="Long" value="3706"/>
+      <attribute name="size" type="Long" value="3705"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.example.impls.command"/>
-      <attribute name="bundle-version" type="Version" value="0.0.0.201610260710"/>
+      <attribute name="bundle-version" type="Version" value="0.0.0.201610260816"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.example.impls.command"/>
-      <attribute name="bundle-version" type="Version" value="0.0.0.201610260710"/>
+      <attribute name="bundle-version" type="Version" value="0.0.0.201610260816"/>
     </capability>
     <capability namespace="osgi.service">
       <attribute name="objectClass" type="List&lt;String&gt;" value="java.lang.Object"/>
@@ -27,7 +27,7 @@
       <directive name="uses" value="java.lang"/>
     </capability>
     <capability namespace="bndtools.workspace">
-      <attribute name="bndtools.workspace" value="file:/F:/liferay-ide/liferay-ide-eclipse-windows-x64-3.0.1-ga2-201606151031/eclipse/osgi-example"/>
+      <attribute name="bndtools.workspace" value="file:/D:/github/eclipse-jee-mars-1-win32-x86_64/eclipse/osgi-example"/>
       <attribute name="project.path" value="/com.example.impls"/>
     </capability>
     <requirement namespace="osgi.wiring.package">
@@ -52,9 +52,9 @@
       <attribute name="version" type="Version" value="0.0.0"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="9864bb151c949b5a0002c1f0e894278c901753a71a310f250132a7424afb328b"/>
+      <attribute name="osgi.content" value="ce12098042589f748482aa84cd68661c3bae3460577551741f705435748f96cf"/>
       <attribute name="url" value="generated/com.example.impls.provider.jar"/>
-      <attribute name="size" type="Long" value="2913"/>
+      <attribute name="size" type="Long" value="2911"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
@@ -73,7 +73,7 @@
       <directive name="uses" value="com.example.api"/>
     </capability>
     <capability namespace="bndtools.workspace">
-      <attribute name="bndtools.workspace" value="file:/F:/liferay-ide/liferay-ide-eclipse-windows-x64-3.0.1-ga2-201606151031/eclipse/osgi-example"/>
+      <attribute name="bndtools.workspace" value="file:/D:/github/eclipse-jee-mars-1-win32-x86_64/eclipse/osgi-example"/>
       <attribute name="project.path" value="/com.example.impls"/>
     </capability>
     <requirement namespace="osgi.wiring.package">

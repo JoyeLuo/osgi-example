@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1477467861575" name="com.example.client" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1477469761439" name="com.example.client" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.example.client"/>
@@ -7,9 +7,9 @@
       <attribute name="version" type="Version" value="0.0.0"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="497266c1d00a574e234316d53163329296bfbe4b9469682d710e182578fb037f"/>
+      <attribute name="osgi.content" value="99e80c93979a8750e21dca267d836c464aae40f85a70d9ab74b0d8378a2b4e0a"/>
       <attribute name="url" value="generated/com.example.client.jar"/>
-      <attribute name="size" type="Long" value="3916"/>
+      <attribute name="size" type="Long" value="3917"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
@@ -29,7 +29,7 @@
       <attribute name="help" value="help.xml"/>
     </capability>
     <capability namespace="bndtools.workspace">
-      <attribute name="bndtools.workspace" value="file:/F:/liferay-ide/liferay-ide-eclipse-windows-x64-3.0.1-ga2-201606151031/eclipse/osgi-example"/>
+      <attribute name="bndtools.workspace" value="file:/D:/github/eclipse-jee-mars-1-win32-x86_64/eclipse/osgi-example"/>
       <attribute name="project.path" value="/com.example.client"/>
     </capability>
     <requirement namespace="osgi.wiring.package">
