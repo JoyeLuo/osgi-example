@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<repository increment="1477467861575" name="com.example.client" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.example.client"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" type="Version" value="0.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="osgi.content" value="497266c1d00a574e234316d53163329296bfbe4b9469682d710e182578fb037f"/>
+      <attribute name="url" value="generated/com.example.client.jar"/>
+      <attribute name="size" type="Long" value="3916"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="osgi.wiring.bundle" value="com.example.client"/>
+      <attribute name="bundle-version" type="Version" value="0.0.0"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="osgi.wiring.host" value="com.example.client"/>
+      <attribute name="bundle-version" type="Version" value="0.0.0"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="org.bndtools.template" value="bndrun"/>
+      <attribute name="name" value="haha"/>
+      <attribute name="category" value="Examples"/>
+      <attribute name="dir" value="template"/>
+      <attribute name="icon" value="data:image/gif;base64,R0lGODlhEAAQANUAACCAQSaAQSaIQUGRV16abzqITzOISGatdy2IQUiRV0iaVzqRSEGRT2atbzqIQTN3OkGISEiRT0+aV1ekXi2AMzOIOkGaSEiaTzqIOkGRQVekV0iASGakZnetd63LrbrSutXg1V6aV4i3gG+kXoCtb4i3d5rBiIi3b5G3d5G3b6TBiIDMJsLpeP///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAC4ALAAAAAAQABAAAAaYQJdwSCwWQYdCIFA4gIyug2G1MqlEnGbxkCitWqtUCoVKHIYgA+n0aYFP8JPhGZWMRm336n4/uwwhgXl6gR0GQgYbih5ujSwbHQFCAA+VjI0flQQAQgEUn5ctHp8QE5JRDBERlx6qFxIDfiAIEhmMHg4OGRcTCHRRCxMeHhUYFhoTC35DBwgKEw0NEwoIy0RIAksCTlDdRUEAOw=="/>
+      <attribute name="help" value="help.xml"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/F:/liferay-ide/liferay-ide-eclipse-windows-x64-3.0.1-ga2-201606151031/eclipse/osgi-example"/>
+      <attribute name="project.path" value="/com.example.client"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.example.api)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

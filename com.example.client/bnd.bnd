@@ -1,0 +1,19 @@
+
+Provide-Capability: \
+	org.bndtools.template;\
+		org.bndtools.template=bndrun; \
+		name=haha; \
+		category=Examples; \
+		dir=template; \
+		icon="${icondata}"; \
+		help=help.xml
+
+icondata: data:image/gif;base64,${base64;icon.gif}
+
+-resourceonly: true
+-includeresource: resources
+-buildpath: \
+	osgi.core,\
+	com.example.api;version=latest
+Bundle-Activator: com.example.client.ClientActivator
+Private-Package: com.example.client
