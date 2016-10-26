@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1477469761803" name="com.example.impls" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1477472837494" name="com.example.impls" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.example.impls.command"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" type="Version" value="0.0.0.201610260816"/>
+      <attribute name="version" type="Version" value="0.0.0.201610260907"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="ab426b04f22c63332acda6c7c0ae91223131a6e27b232b9c56593ca1f0e22e60"/>
+      <attribute name="osgi.content" value="b2be9058ecd6e7b146d566b516012e014888d6dfd4b64d20772efadcd6d7573b"/>
       <attribute name="url" value="generated/com.example.impls.command.jar"/>
-      <attribute name="size" type="Long" value="3705"/>
+      <attribute name="size" type="Long" value="4078"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
       <attribute name="osgi.wiring.bundle" value="com.example.impls.command"/>
-      <attribute name="bundle-version" type="Version" value="0.0.0.201610260816"/>
+      <attribute name="bundle-version" type="Version" value="0.0.0.201610260907"/>
     </capability>
     <capability namespace="osgi.wiring.host">
       <attribute name="osgi.wiring.host" value="com.example.impls.command"/>
-      <attribute name="bundle-version" type="Version" value="0.0.0.201610260816"/>
+      <attribute name="bundle-version" type="Version" value="0.0.0.201610260907"/>
     </capability>
     <capability namespace="osgi.service">
       <attribute name="objectClass" type="List&lt;String&gt;" value="java.lang.Object"/>
@@ -52,9 +52,9 @@
       <attribute name="version" type="Version" value="0.0.0"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="ce12098042589f748482aa84cd68661c3bae3460577551741f705435748f96cf"/>
+      <attribute name="osgi.content" value="10b15bb02e8aff8426f41b6997334461ccecbf1150f411f273a637c567734051"/>
       <attribute name="url" value="generated/com.example.impls.provider.jar"/>
-      <attribute name="size" type="Long" value="2911"/>
+      <attribute name="size" type="Long" value="3289"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<repository increment="1477471445804" name="com.example.client" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
+<repository increment="1477472747955" name="com.example.client" xmlns="http://www.osgi.org/xmlns/repository/v1.0.0">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="com.example.client"/>
@@ -7,9 +7,9 @@
       <attribute name="version" type="Version" value="0.0.0"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="osgi.content" value="1b73983db2cb4e9117a947b9f1295cf2d74e240e882697fbac0d47aa51ebe871"/>
+      <attribute name="osgi.content" value="73226ddee9b6c5baf0ffc040bf5a29fb03bc6874895663d3f41d54a9181cc33f"/>
       <attribute name="url" value="generated/com.example.client.jar"/>
-      <attribute name="size" type="Long" value="3972"/>
+      <attribute name="size" type="Long" value="4355"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
