@@ -11,8 +11,10 @@ public class ClientActivator implements BundleActivator {
 	public void start(BundleContext context) throws Exception {
 
 		final ServiceReference<Greeting> sr = context.getServiceReference(Greeting.class);
-		final Greeting m = context.getService(sr);
-		System.out.println(m.sayHello("from activator"));
+		if (sr != null) {
+			final Greeting m = context.getService(sr);
+			System.out.println(m.sayHello("from client"));
+		}
 	}
 
 	@Override
